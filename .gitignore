@@ -1,0 +1,28 @@
+# diskscan index + SQLite sidecar files
+diskindex.db
+*.db
+*.db-shm
+*.db-wal
+
+# generated deletion manifests
+manifest.txt
+*.manifest
+
+# quarantine output from `sweep --apply`
+quarantine/
+restore-*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
