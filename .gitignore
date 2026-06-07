@@ -5,7 +5,7 @@ diskindex.db
 *.db-wal
 
 # generated deletion manifests
-manifest.txt
+manifest*.txt
 *.manifest
 
 # quarantine output from `sweep --apply`
